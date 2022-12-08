@@ -14,6 +14,11 @@
 		92081507294160BA0032F4E8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 92081505294160B90032F4E8 /* README.md */; };
 		92081508294160BA0032F4E8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 92081506294160BA0032F4E8 /* .gitignore */; };
 		9208150A294161410032F4E8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 92081509294161410032F4E8 /* LICENSE */; };
+		920815142941C0040032F4E8 /* EnvironmentModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920815112941C0040032F4E8 /* EnvironmentModifiers.swift */; };
+		920815152941C0040032F4E8 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920815122941C0040032F4E8 /* CustomModifiers.swift */; };
+		920815162941C0040032F4E8 /* ViewsAsProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920815132941C0040032F4E8 /* ViewsAsProps.swift */; };
+		920815182941C0560032F4E8 /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920815172941C0560032F4E8 /* ViewComposition.swift */; };
+		9208151A2941C0670032F4E8 /* CustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920815192941C0670032F4E8 /* CustomContainers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		92081505294160B90032F4E8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		92081506294160BA0032F4E8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		92081509294161410032F4E8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		920815112941C0040032F4E8 /* EnvironmentModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentModifiers.swift; sourceTree = "<group>"; };
+		920815122941C0040032F4E8 /* CustomModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		920815132941C0040032F4E8 /* ViewsAsProps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsAsProps.swift; sourceTree = "<group>"; };
+		920815172941C0560032F4E8 /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
+		920815192941C0670032F4E8 /* CustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				920814F7294160640032F4E8 /* ViewsAndModifiersApp.swift */,
+				920815192941C0670032F4E8 /* CustomContainers.swift */,
+				920815172941C0560032F4E8 /* ViewComposition.swift */,
+				920815122941C0040032F4E8 /* CustomModifiers.swift */,
+				920815112941C0040032F4E8 /* EnvironmentModifiers.swift */,
+				920815132941C0040032F4E8 /* ViewsAsProps.swift */,
 				920814F9294160640032F4E8 /* ContentView.swift */,
 				920814FB294160670032F4E8 /* Assets.xcassets */,
 				920814FD294160670032F4E8 /* Preview Content */,
@@ -149,6 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9208151A2941C0670032F4E8 /* CustomContainers.swift in Sources */,
+				920815142941C0040032F4E8 /* EnvironmentModifiers.swift in Sources */,
+				920815182941C0560032F4E8 /* ViewComposition.swift in Sources */,
+				920815152941C0040032F4E8 /* CustomModifiers.swift in Sources */,
+				920815162941C0040032F4E8 /* ViewsAsProps.swift in Sources */,
 				920814FA294160640032F4E8 /* ContentView.swift in Sources */,
 				920814F8294160640032F4E8 /* ViewsAndModifiersApp.swift in Sources */,
 			);
